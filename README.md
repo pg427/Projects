@@ -1,7 +1,7 @@
 # International Debt Analysis w/ SQL
 
 ## Overview
-Analyze World Bank Debt dataset exported via DataCamp using PostgreSQL(https://projects.datacamp.com/projects/1906)
+Analyze World Bank Debt dataset exported via DataCamp using PostgreSQL
 
 ## Findings
 - Dataset: 2,357 rows covering 124 distinct countries
@@ -21,6 +21,13 @@ IS NOT NULL, ORDER BY, LIMIT, and column aliases.
 ## Requirements
 - PostgreSQL and the `psql` command-line client.
 - Run commands from the project's root folder
+
+## Dataset Access
+The dataset is not included in this repository.
+Source: https://www.datacamp.com/projects/1906
+
+To reproduce, obtain the dataset and follow the Data Preparation
+instructions below before running the SQL scripts.
 
 ## Data Preparation
 - Keep the original Excel export in `data/raw/`
