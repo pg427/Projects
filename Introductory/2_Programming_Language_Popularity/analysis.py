@@ -45,7 +45,7 @@ top_tag_data = df[df['tag'].isin(top_five.index)].copy()
 top_tag_data["question_share_pctg"] = (top_tag_data["num_questions"] / top_tag_data["year_total"] * 100)
 top_tag_data = top_tag_data.sort_values(["tag", "year"])
 top_tag_data.to_csv(
-    "results/ yearly_tag_shares.csv"
+    "results/yearly_tag_shares.csv"
 )
 # print (top_tag_data.head(10))
 
@@ -67,5 +67,5 @@ ax.legend(title="Tag")
 ax.grid(alpha=0.3)
 fig.tight_layout()
 
-fig.savefig("results/ top_five_tag_trends.png", dpi=300)
+fig.savefig("results/top_five_tag_trends.png", dpi=300)
 plt.show()
