@@ -4,7 +4,7 @@ A collection of hands-on data science, SQL, and AI projects.
 
 ## Introductory
 
-### International Debt Analysis
+### 1. International Debt Analysis
 Analyze World Bank debt indicators using PostgreSQL.
 
 Skills: SQL aggregation, filtering, sorting, and data validation.
