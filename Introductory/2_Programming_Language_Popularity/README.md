@@ -13,10 +13,10 @@ Load and inspect the data with pandas, rank tags by question count, calculate ye
 Question share (%) = num_questions / year_total × 100
 
 ## Results
-- R question share in 2020: [0.966%]
-- Top five tags during 2015–2020: [javascript, python, java, android, c#]
+- R question share in 2020: `0.966%`
+- Top five tags during 2015–2020: `javascript`, `python`, `java`, `android`, `c#`
 
-![Yearly question shares](results/top_five_tag_trends.png)
+![Yearly question shares](Introductory/2_Programming_Language_Popularity/results/top_five_tag_trends.png)
 
 ## Limitations
 Question activity does not measure overall language usage or job demand.
