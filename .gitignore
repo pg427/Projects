@@ -1,0 +1,16 @@
+# macOS files
+.DS_Store
+
+# PyCharm settings
+.idea/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and cache (for the later Python versions)
+.venv/
+venv/
+__pycache__/
+*.pyc

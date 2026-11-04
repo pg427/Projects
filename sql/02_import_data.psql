@@ -1,0 +1,1 @@
+ \copy international_debt (country_name, country_code, indicator_name, indicator_code, debt) FROM 'data/processed/1_intl_debt_data.csv' WITH (FORMAT csv, HEADER true);
