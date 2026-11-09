@@ -292,7 +292,7 @@ evaluation_results.append(evaluate_model("SMOTENC", smotenc_model, X_test_encode
 
 ''' STEP 14: Save Results'''
 comparison = pd.DataFrame(evaluation_results)
-comparison.to_csv("results/model.comparison.csv", index=False)
+comparison.to_csv("results/model_comparison.csv", index=False)
 print("\nFinal Model Comparison")
 print(comparison.head(10))
 
