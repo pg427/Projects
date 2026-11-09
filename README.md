@@ -18,7 +18,7 @@ Skills: data inspection, filtering, grouping, aggregation, percentage calculatio
 
 [View project](Introductory/2_Programming_Language_Popularity/)
 
-### Telecom Customer Churn Prediction
+### 3. Telecom Customer Churn Prediction
 Predict customer churn logistic regression and compare feature selection and class-imbalance strategies.
 
 Skills: data cleaning, missing-value handling, one-hot encoding, standardization, logistic regression, feature selection, class-weighting, undersampling, SMOTENC, and model evaluation
